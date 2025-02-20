@@ -26,7 +26,7 @@ export default function ticketReducer(state, action) {
         ...state,
         editingTicket: null
       };
-    case "SET SORTING":
+    case "SET_SORTING":
       return {
         ...state,
         sortPreference: action.payload
